@@ -1,0 +1,14 @@
+﻿<Page x:Class="DzDem.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DzDem"
+      mc:Ignorable="d" 
+      d:DesignHeight="406.06" d:DesignWidth="826"
+      Title="MainPage" Background="AliceBlue">
+
+    <Grid>
+        <Button x:Name="GoView" Content="Далее" Margin="130" Click="GoView_Click"/>
+    </Grid>
+</Page>
